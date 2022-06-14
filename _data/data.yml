@@ -59,9 +59,23 @@ education:
     university: Western Washington University
 
 experiences:
+  - role: Principal Consultant, President
+    time: November 2019 - Present
+    company: Innovise Technologies
+    location: Bellevue, WA
+    details: |
+      As owner and Principal Consultant of Innovise, Loren is responsible for serving clients across many industries in an array of ways. Roles that Loren serves for clients include CTO, Software Development Lead, and Software Engineer. He partners with small and medium-sized organizations to understand business goals, challenges, and needs thens presents creative and innovative solutions. Day-to-Day oversight and responsibilities include, but are not limited to architecting software, managing teams, and conducting business analyses.
+
+      _Accomplishments_
+        - Saved client 60% on their monthly cost on monthly Azure spend by containerizing applications, moving scheduled processes to serverless functions, removing uneeded VM's, and more.
+        - Refactored and rebuilt slow and monolithic software systems built in .Net with C# to increase system speed and performance. Increased response time of systems by up to 75% by utilizing WebSockets throughout the system.
+        - Designed, built, deployed, and operated complete software systems utilizing NodeJs and React hosted in Firebase and integrated with many external systems
+        - Helped the client organize a software development team and put Agile processes in place utilizing Atlassian tools.         
+        - Adopted existing, but abandoned VueJs web application and rebuilt to new specifications of the client.
+
   - role: Senior Software Engineer
-    time: May 2019 - Present
-    company: Modern Car Manufacturer (Protected by NDA on contract by iTrellis, LLC)
+    time: May 2019 - January 2020
+    company: Mercedes Benz, Research and Development, North America (on contract by iTrellis, LLC)
     location: Seattle, WA
     details: |
       As the Senior Software Engineer Loren was responsible for working on two projects
@@ -82,7 +96,7 @@ experiences:
 
   - role: Senior Software Engineer
     time: Oct 2019 - May 2019
-    company: Intl. Commercial Real Estate Corp. (Protected by NDA on contract by iTrellis, LLC)
+    company: CBRE (on contract by iTrellis, LLC)
     location: Dallas, TX
     details: |
       This project was for a client based in Dallas, Texas and required a combination
