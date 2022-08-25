@@ -23,4 +23,5 @@ You can later update your downstream resumes with:
 `git rebase upstream/master`
 
 - Update `assets/images/profile.png`
+- Update `assets/_config.yml`
 - Update data.yml for the new employee.
