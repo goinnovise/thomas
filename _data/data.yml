@@ -229,3 +229,12 @@ skills:
   tools: "Windows, Mac OS, Redux, Visual Studio, VS Code, Agile, Scrum, SAFe"
   operations: "CICD, Docker, Kubernetes, Helm, Azure Devops, Atlassian Jira, Jenkins, Atlassian Bamboo"
   other: "Leading Teams, Cross-Functional Communication, Git, Azure, SQL Server, Postgres"
+
+# Examples section. Useful for UX designers or other visual additions
+showExamples: false
+examples:
+  - title: Caption 1
+    img: assets/images/example1.jpg
+
+  - title: Caption 2
+    img: assets/images/example1.jpg

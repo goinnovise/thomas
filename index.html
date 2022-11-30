@@ -2,19 +2,8 @@
 layout: default
 ---
 
-
-{% include career-profile.html %}
-
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
-{% include skills.html %}
-
-{% include experiences.html %}
-
-
-{% if false %}
-  {% include projects.html %}
-  {% include publications.html %}  
-{% endif %}
+{% include career-profile.html %} {% unless site.data.data.sidebar.education %}
+{% include education.html %} {% endunless %} {% include skills.html %} {%include
+experiences.html %} {% if false %} {% include projects.html %} {% include
+publications.html %} {% endif %} {% if site.data.data.showExamples %} {% include
+examples.html %} {% endif %}
