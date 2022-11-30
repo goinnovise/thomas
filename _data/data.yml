@@ -223,12 +223,16 @@ publications:
       conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-  title: Skills &amp; Proficiencies
-  languages: "C#, Java, TypeScript, JavaScript, GoLang, Python, VB, SQL"
-  frameworks: ".NET, Angular, ReactJs, VueJs, RxjJS, Spring Boot, BeeGo, jQuery, Jekyll"
-  tools: "Windows, Mac OS, Redux, Visual Studio, VS Code, Agile, Scrum, SAFe"
-  operations: "CICD, Docker, Kubernetes, Helm, Azure Devops, Atlassian Jira, Jenkins, Atlassian Bamboo"
-  other: "Leading Teams, Cross-Functional Communication, Git, Azure, SQL Server, Postgres"
+  - title: Languages
+    value: "C#, Java, TypeScript, JavaScript, GoLang, Python, VB, SQL"
+  - title: Frameworks
+    value: ".NET, Angular, ReactJs, VueJs, RxjJS, Spring Boot, BeeGo, jQuery, Jekyll"
+  - title: Tools
+    value: "Windows, Mac OS, Redux, Visual Studio, VS Code, Agile, Scrum, SAFe"
+  - title: Operations
+    value: "CICD, Docker, Kubernetes, Helm, Azure Devops, Atlassian Jira, Jenkins, Atlassian Bamboo"
+  - title: Other
+    value: "Leading Teams, Cross-Functional Communication, Git, Azure, SQL Server, Postgres"
 
 # Examples section. Useful for UX designers or other visual additions
 showExamples: false

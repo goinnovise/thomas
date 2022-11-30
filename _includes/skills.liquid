@@ -1,45 +1,28 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
-<section class="skills-section section">
+  <section class="skills-section section">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ skills.title }}
-  </h2>
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+      </span>
+      Skills &amp; Proficiencies
+    </h2>
 
-  <div class="skillset">
+    <div class="skillset">
 
-    <div class="item">
-      <b>Software Languages: </b><span>{{ skills.languages }}</span>
+
+      {% for skill in skills %}
+        <div class="item">
+          <b>{{ skill.title }}:
+          </b>
+          <span>{{ skill.value }}</span>
+        </div>
+      {% endfor %}
+
+
     </div>
-    
-    {% if skills.frameworks %}
-    <div class="item">
-      <b>Frameworks: </b><span>{{ skills.frameworks }}</span>
-    </div>
-    {% endif %}
-
-    {% if skills.tools %}
-    <div class="item">
-      <b>Tools: </b><span>{{ skills.tools }}</span>
-    </div>
-    {% endif %}
-
-    {% if skills.operations %}
-    <div class="item">
-      <b>Operations: </b><span>{{ skills.operations }}</span>
-    </div>
-    {% endif %}
-
-    {% if skills.other %}
-    <div class="item">
-      <b>Other: </b><span>{{ skills.other }}</span>
-    </div>
-    {% endif %}
-  </div>
-</section>
-<!--//skills-section-->
+  </section>
+  <!--//skills-section-->
 {% endif %}
