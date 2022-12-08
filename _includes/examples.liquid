@@ -20,7 +20,7 @@
     {% for example in examples %}
     <li>
       <figure>
-        <a href="{{ example.img }}" target="_blank"
+        <a href="{{ example.url | default: example.img }}" target="_blank"
           ><img alt="{{example.title}}" src="{{ example.img }}"
         /></a>
         <figcaption>{{example.title}}</figcaption>
